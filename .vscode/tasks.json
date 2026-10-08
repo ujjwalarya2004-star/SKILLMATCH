@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "SkillMatch: Run on Tomcat (http://localhost:8080/skillmatch)",
+      "type": "shell",
+      "command": "mvn clean package cargo:run",
+      "problemMatcher": [],
+      "isBackground": true,
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "SkillMatch: Build WAR only",
+      "type": "shell",
+      "command": "mvn clean package",
+      "problemMatcher": ["$msCompile"]
+    }
+  ]
+}
