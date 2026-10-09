@@ -12,7 +12,7 @@ import java.util.Properties;
  */
 public class DBConnection {
 
-    private static final String DEFAULT_URL = "jdbc:mysql://localhost:3306/skillmatch_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8";
+    private static final String DEFAULT_URL = "jdbc:mysql://localhost:3307/skillmatch_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8";
     private static final String DEFAULT_USER = "root";
     private static final String DEFAULT_PASSWORD = "root";
 
